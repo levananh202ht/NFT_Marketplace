@@ -1,0 +1,141 @@
+@media screen and (max-width: 768px) {
+    /* header */
+    .nft_header{
+        align-items: center;
+    }
+
+    .nft_header .nft_header-right {
+        display: none;
+    }
+    .nft_header .icon-bar-responsive{
+        display: block;
+    }
+    /* userInfo */
+    .nft_userInfo .nft_userInfo-top{
+        flex-direction: column;
+    }
+    .nft_userInfo .nft_userInfo-top h2 {
+        margin-bottom: 30px;
+        font-size: 5vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param  {
+        width: 62%;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.param {
+        font-size: 2.85vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.text {
+        font-size: 2.2vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio h5 {
+        font-size: 2.1vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio p {
+        font-size: 2.1vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-links h5 {
+        font-size: 2.1vw;
+    }
+    /* tab */
+    .nft_tab h5{
+        font-size: 2.1vw;
+    }
+    .nft_tab p{
+        font-size: 1.6vw;
+    }
+    /* cardSection */
+    .nft_cardSection {
+        grid-template-columns: 48% 48% ;
+    }
+    /* footer */
+    .nft_footer .nft_footer-info {
+        flex-direction: column;
+    }
+    .nft_footer .nft_footer-info .nft_footer-info-item1,
+    .nft_footer .nft_footer-info .nft_footer-info-item2 {
+        padding-bottom: 30px;
+        width: 120%;
+    }
+    .nft_footer .nft_footer-info .nft_footer-info-item3 {
+        padding-left: 0;
+        width: 120%;
+    }
+}
+@media screen and (max-width: 418px) {
+    /* header */
+    .nft_header{
+        padding: 15px 30px;
+    }
+    /* profileImage */
+    .nft_profileImage img{
+        left: 34%;
+    }
+    /* userInfo */
+    .nft_userInfo .nft_userInfo-top h2 {
+        font-size: 7.4vw;
+    }
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button{
+        flex-direction: column;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param {
+        width: 96%;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.param {
+        font-size: 5.8vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-param div p.text {
+        font-size: 4.2vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio h5 {
+        font-size: 4.2vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-bio p {
+        font-size: 4.2vw;
+    }
+    .nft_userInfo .nft_userInfo-bottom .nft_userInfo-bottom-links h5 {
+        font-size: 4.2vw;
+    }
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button button:nth-child(2) {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button button:nth-child(1),
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button button:nth-child(2){
+        justify-content: center;
+    }
+    /* tab */
+    .nft_tab h5{
+        font-size: 4.2vw;
+    }
+    .nft_tab p{
+        display: none;
+    }
+    /* cardSection */
+    .nft_cardSection {
+        grid-template-columns: 100% ;
+    }
+    /* footer */
+    .nft_footer {
+        padding: 40px 8%;
+    }
+    .nft_footer .nft_footer-info {
+        flex-direction: column;
+    }
+    .nft_footer .nft_footer-info .nft_footer-info-item1,
+    .nft_footer .nft_footer-info .nft_footer-info-item2 {
+        padding-bottom: 30px;
+        width: 180%;
+    }
+    .nft_footer .nft_footer-info .nft_footer-info-item3 {
+        padding-left: 0;
+        width: 150%;
+    }
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div  input {
+        width: 70%;
+    }
+    .nft_footer .nft_footer-info .nft_footer-info-item3 div button {
+        margin-top: 16px;
+        width: 70%;
+        margin-left: 0%;
+    }
+}

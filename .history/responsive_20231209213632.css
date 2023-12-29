@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+
+    .nft_header{
+        align-items: center;
+    }
+
+    .nft_header .nft_header-right {
+        display: none;
+    }
+    .nft_header .icon-bar-responsive{
+        display: block;
+    }
+
+    .nft_userInfo .nft_userInfo-top{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 418px) {
+    /* header */
+    .nft_header{
+        padding: 15px 30px;
+    }
+    /* profileImage */
+    .nft_profileImage img{
+        left: 34%;
+    }
+
+    .nft_userInfo .nft_userInfo-top .nft_userInfo-top-button{
+        flex-direction: column;
+    }
+    
+}

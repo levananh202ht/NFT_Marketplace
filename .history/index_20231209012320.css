@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nft_header {
+
+}
+
+.nft_header .nft_header-left {
+    background: #2B2B2B;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nft_header .nft_header-right {
+
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 815px) {
+
+    .nft_header{
+        align-items: center;
+    }
+    
+    .nft_header .nft_header-right {
+        display: none;
+    }
+    .nft_header .icon-bar-responsive{
+        display: block;
+    }
+}

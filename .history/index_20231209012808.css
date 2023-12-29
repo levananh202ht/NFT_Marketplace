@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nft_header {
+    background: #2B2B2B;
+    display: flex;
+    justify-content: space-between;
+    color: #F5F5F5;
+    padding: 20px 50px;
+}
+
+.nft_header .nft_header-left {
+    display: flex;
+    align-items: center;
+}
+.nft_header .nft_header-left h3 {
+
+}
+
+.nft_header .nft_header-right {
+
+}
